@@ -1,0 +1,14 @@
+--type-add=ruby=.haml,.rake,.ru,.rsel,.builder,.rb,.gemspec,.palette
+--type-add=vim=.vim,.snippets
+--type-add=html=.html,.html.erb,.html.slim,.html.haml,.mustache,.jst,.ejs
+--type-add=js=.js,.coffee,.js.erb,.jsx
+--type-add=css=.sass,.less,.scss
+--type-set=cucumber=.feature
+--type-set=markdown=.markdown,.md
+--type-set=sh=.env,.aliases,.plugin,.completion,.theme,.compdef,.zsh,.sh
+--type-set=react=.jsx
+--sort-files
+--color
+--follow
+--group
+--smart-case
