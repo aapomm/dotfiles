@@ -177,6 +177,9 @@ inoremap <C-U> <C-G>u<C-U>
 inoremap jj <Esc>
 inoremap jk <Esc>
 
+" Unmap K (used for instantly "man"-ing commands)
+map K <Nop>
+
 
 
 
