@@ -64,6 +64,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'justincampbell/vim-eighties'
 Plugin 'mxw/vim-jsx'
+Plugin 'gabrielelana/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
