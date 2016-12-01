@@ -49,9 +49,7 @@ plugins=(git bundler ruby rails rvm)
 
 # User configuration
 
-export PATH="$PATH:/Users/aaronmanaloto/.rvm/gems/ruby-2.1.3@momofuku-reservations/bin:/Users/aaronmanaloto/.rvm/gems/ruby-2.1.3@global/bin:/Users/aaronmanaloto/.rvm/rubies/ruby-2.1.3/bin:/Users/aaronmanaloto/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/heroku/bin"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="$HOME/.rbenv/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -102,5 +100,7 @@ alias gdf='git diff --color | diff-so-fancy'
 alias add_ssh_personal='sudo ssh-add ~/.ssh/id_rsa_personal'
 alias rm_ssh_personal='sudo ssh-add -d ~/.ssh/id_rsa_personal'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+eval "$(rbenv init -)"
 
 e(){ echo $1;  echo $2;}

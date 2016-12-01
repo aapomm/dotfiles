@@ -58,13 +58,14 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'justincampbell/vim-eighties'
 Plugin 'mxw/vim-jsx'
 Plugin 'gabrielelana/vim-markdown'
+Plugin 'ajh17/vimcompletesme'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
