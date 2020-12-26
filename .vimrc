@@ -51,20 +51,16 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-rails'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/html5.vim'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'flazz/vim-colorschemes'
+Plugin 'morhetz/gruvbox'
 Plugin 'bling/vim-airline'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'justincampbell/vim-eighties'
-Plugin 'mxw/vim-jsx'
-Plugin 'gabrielelana/vim-markdown'
-Plugin 'ajh17/vimcompletesme'
+Plugin 'MaxMEllon/vim-jsx-pretty'
 
 
 " All of your Plugins must be added before the following line
@@ -82,7 +78,7 @@ filetype plugin on           " required
 
 " Theme
 set background=dark
-colorscheme solarized
+autocmd vimenter * ++nested colorscheme gruvbox
 
 " Vim Ruby
 syntax on             " Enable syntax highlighting
@@ -95,6 +91,7 @@ let g:ctrlp_match_window = 'results:20'
 
 " Airline Settings
 set laststatus=2
+set encoding=utf-8
 let g:airline#extensions#branch#enabled = 1
 let g:airline_powerline_fonts = 1
 
